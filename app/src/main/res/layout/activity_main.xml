@@ -8,6 +8,7 @@
 
 
     <TextView
+        app:layout_constraintHorizontal_weight="2"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -19,10 +20,11 @@
         android:paddingVertical="10dp"
         android:paddingHorizontal="30dp"
         android:text="A"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"/>
 
     <TextView
+        app:layout_constraintHorizontal_weight="6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@id/textViewA"
@@ -33,9 +35,10 @@
         android:paddingVertical="10dp"
         android:paddingHorizontal="30dp"
         android:text="B"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"/>
     <TextView
+        app:layout_constraintHorizontal_weight="2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@id/textViewB"
@@ -46,7 +49,7 @@
         android:paddingVertical="10dp"
         android:paddingHorizontal="30dp"
         android:text="C"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"/>
 
 
